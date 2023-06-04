@@ -1,0 +1,75 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+#hizmetler {
+  background-color: #ccc;
+}
+
+#hizmetler h2 {
+  text-align: center;
+  color: aliceblue;
+  font-size: 2rem;
+  letter-spacing: 0.5px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.card {
+  background: rgb(10, 14, 28);
+  background: linear-gradient(
+    0deg,
+    rgba(10, 14, 28, 1) 0%,
+    rgba(0, 19, 92, 1) 36%
+  );
+  width: 350px;
+  height: 500px;
+  margin: 10px;
+  color: #fff;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.card h3 {
+  color: #fff;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.card p {
+  padding: 1rem;
+}
+
+.card .card-image {
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  transition: all 1s ease;
+}
+.card .card-image:hover {
+  width: 350px;
+  height: 400px;
+}
+
+.img-1 {
+  background-image: url(/denemecard/assets/image/evye-altı-su-aritma-sistemleri.jpg);
+}
+
+.img-2 {
+  background-image: url(/denemecard/assets/image/image.jpg);
+}
+
+.img-3 {
+  background-image: url(/assets/image/image.jpg);
+}
